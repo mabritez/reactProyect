@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(41, 39, 36);
+}
+
+.header{
+    background-color:  #fff59d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10px;
+}
+
+.header .marca{
+    cursor: pointer;
+}
+
+.header .marca h1{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+    padding: 0 30px;
+}
+
+.header .marca h1:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links{
+    list-style: none;
+    
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.header .nav-links a:hover{
+    color: red
+}
