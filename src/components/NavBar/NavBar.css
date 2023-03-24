@@ -1,6 +1,4 @@
-body{
-    background-color: rgb(41, 39, 36);
-}
+
 
 .header{
     background-color:  #fff59d;
@@ -26,26 +24,28 @@ body{
     transform: scale(1.1);
 }
 
-.header .nav-links{
+.header .naLinks{
     list-style: none;
     
 }
 
-.header .nav-links li{
+.header .navLinks li{
     display: inline-block;
     padding: 0 30px;
 }
 
-.header .nav-links li:hover{
+.header .navLinks li:hover{
     transform: scale(1.1);
 }
 
-.header .nav-links a{
+.header .navLinks a{
     font-size: 700;
     color: black;
     text-decoration: none;
 }
 
-.header .nav-links a:hover{
+.header .navLinks a:hover{
     color: red
 }
+
+
